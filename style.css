@@ -1,0 +1,164 @@
+*{
+    max-width: 100%;
+    
+}
+.row{
+    max-width: 100%;
+}
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    font-size: 21px;
+    line-height: 1.58;
+}
+
+.menuBlack {
+    background-color: rgb(0, 0, 0);
+    color: black;
+    text-align: center;
+    padding: 1rem;
+    
+    
+}
+.menuRed {
+    background-color:red;
+    color: black;
+    text-align: center;
+    padding: 1rem;
+    
+}
+.menuYellow {
+    background-color: yellow;
+    color: yellow;
+    text-align: center;
+    padding: 1rem;
+}
+
+.menuRed h1 {
+    margin: auto 0;
+    font-weight: bolder;
+}
+
+.titulo {
+    margin-top: 5%;
+    font-size: 28px;
+    float: left;
+}
+
+.sub {
+    color: rgba(0, 0, 0, 0.541176);
+    margin-top: 5px;
+    margin-bottom:7%;
+    font-size: 20px;
+    float: left;
+}
+img{
+   width: 100%;
+   margin-bottom: 5%;
+
+}
+.conteudo-left p {
+    text-align: justify;
+    font-size: 20px;
+}
+
+a {
+    color: cadetblue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.corD{
+    background-color: #e1e1e1;
+    border: 20px solid #e1e1e1;
+
+}
+.conteudo-right{
+    margin-top: 4rem;
+    text-align: center;
+    font-size: 20px;
+    max-width: 100%;
+}
+.conteudo-right h1{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 0%;
+    font-weight: bold;
+}
+.conteudo-right h2{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.conteudo-right p{
+    padding: 6%;
+    font-style: italics;
+}
+.nav-link{
+    text-align: justify;
+    color: rgb(28, 28, 28);
+}
+.nav-link:hover{
+    background-color: transparent;
+}
+.footer{
+    background-color: #EEEEEE;
+    padding: 10px;
+}
+.insta{
+    width:40px;
+    height: 40px;
+    padding: 0.5%;
+    border: 2px solid gray;
+}
+.facebook{
+    width: 40px;
+    height: 40px;
+    padding: 0.5%;
+    border: 2px solid gray;
+}
+
+
+/* Contato */
+
+/* Defina as propriedades iniciais do elemento */
+.animar {
+    scale: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 -15px;
+}
+
+.coluna {
+    flex: 1;
+    margin: 15px;
+    border: 1px solid #ffc107;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Animação quando o cursor passa por cima da coluna */
+.coluna:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para os botões */
+.btn {
+    background-color: #ffc107;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Animação para o botão quando o cursor passa por cima */
+.btn:hover {
+    background-color: #ff9800;
+}
